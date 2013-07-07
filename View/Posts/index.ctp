@@ -1,4 +1,4 @@
-<div class="offset1 span9 margin-bottom">
+<div class="offset1 span8 margin-bottom">
     <?php foreach (array_slice($posts, 0, 4) as $key => $post):?>
          <h3><?php
             echo $this->Html->link($post['Post']['title'], array(
@@ -21,7 +21,7 @@
     <?php endforeach; ?>
 </div>
 <?php $this->startIfEmpty('sidebar');?>
-<div class="span1 margin-bottom">
+<div class="span2 sidebar margin-bottom">
     <ul>
         <?php foreach ($posts as $post):?>
         <li><?php
