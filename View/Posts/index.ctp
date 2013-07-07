@@ -1,5 +1,5 @@
-<div class="offset1 span10 margin-bottom">
-    <?php foreach ($posts as $key => $post):?>
+<div class="offset1 span9 margin-bottom">
+    <?php foreach (array_slice($posts, 0, 4) as $key => $post):?>
          <h3><?php
             echo $this->Html->link($post['Post']['title'], array(
             'controller' => 'posts',
@@ -20,3 +20,21 @@
         <?php endif;?>
     <?php endforeach; ?>
 </div>
+<?php $this->startIfEmpty('sidebar');?>
+<div class="margin-bottom">
+    <ul>
+        <?php foreach ($posts as $post):?>
+        <li><?php
+            echo $this->Html->link($post['Post']['title'], array(
+                'controller' => 'posts',
+                'action' => 'view',
+                'year' => $post['Post']['year'],
+                'month' => $post['Post']['month'],
+                'day' => $post['Post']['day'],
+                'slug' => $post['Post']['slug']
+            ));?>
+        </li>
+        <?php endforeach; ?>
+    </ul>
+</div>
+<?php $this->end('end');?>

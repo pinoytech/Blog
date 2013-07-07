@@ -71,7 +71,7 @@ class PostsController extends BlogAppController {
             'conditions' => array(
                 'Post.status' => 'published'
             ),
-            'limit' => 4,
+            'limit' => 10,
             'fields' => array('body', 'title', 'slug', "year", "month", "day", "created"),
             'order' => array(
                 'Post.id' => 'DESC'
