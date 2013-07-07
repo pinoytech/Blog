@@ -21,7 +21,7 @@
     <?php endforeach; ?>
 </div>
 <?php $this->startIfEmpty('sidebar');?>
-<div class="span3 sidebar margin-bottom">
+<div class="span2 sidebar margin-bottom">
     <ul>
         <?php foreach ($posts as $post):?>
         <li><?php
