@@ -1,4 +1,4 @@
-<div class="offset2 span8 margin-bottom body">
+<div class="offset1 span10 margin-bottom body">
     <ul>
         <?php foreach ($posts as $post):?>
         <li><?php

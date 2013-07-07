@@ -1,4 +1,4 @@
-<div class="offset2 span8 margin-bottom">
+<div class="offset1 span10 margin-bottom">
   <table class="table table-striped table-hover table-bordered">
     <tr>
       <td>ID</td>

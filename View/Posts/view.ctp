@@ -13,7 +13,7 @@
     'slug' => $post['Post']['slug']
 ));?>"/>
 <?php $this->end();?>
-<div class="offset2 span8 margin-bottom">
+<div class="offset1 span10 margin-bottom">
   <div class="row-fluid">
     <div class="span12">
       <h2><?php echo $post['Post']['title'];?></h2>
@@ -33,7 +33,7 @@
     </div>
   </div>
 </div>
-<div class="offset2 span8 margin-bottom margin-bottom post-footer">
+<div class="offset1 span10 margin-bottom margin-bottom post-footer">
   <small class="muted">DISCLAIMER:</small>
   <small class="muted">The thoughts and opinions expressed here are mine alone, and are not necessarily shared by any other living person.</small>
 </div>
