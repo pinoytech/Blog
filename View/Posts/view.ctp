@@ -33,7 +33,7 @@
     </div>
   </div>
 </div>
-<div class="offset1 span10 margin-bottom margin-bottom post-footer">
+<div class="offset1 span10 margin-bottom post-footer">
   <small class="muted">DISCLAIMER:</small>
   <small class="muted">The thoughts and opinions expressed here are mine alone, and are not necessarily shared by any other living person.</small>
 </div>
