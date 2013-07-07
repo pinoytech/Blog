@@ -1,4 +1,4 @@
-<div class="offset2 span8 margin-bottom body">
+<div class="offset2 span8 margin-bottom">
     <?php foreach ($posts as $key => $post):?>
          <h3><?php
             echo $this->Html->link($post['Post']['title'], array(

@@ -13,7 +13,7 @@
     'slug' => $post['Post']['slug']
 ));?>"/>
 <?php $this->end();?>
-<div class="offset2 span8 margin-bottom body">
+<div class="offset2 span8 margin-bottom">
   <div class="row-fluid">
     <div class="span12">
       <h2><?php echo $post['Post']['title'];?></h2>
