@@ -1,7 +1,8 @@
 <div class="offset1 span10 margin-bottom">
     <ul>
         <?php foreach ($posts as $post):?>
-        <li><?php
+        <li>
+          <?php
             echo $this->Html->link($post['Post']['title'], array(
                 'controller' => 'posts',
                 'action' => 'view',
